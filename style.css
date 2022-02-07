@@ -45,8 +45,9 @@ margin-top: -50px;
 margin-right: 20px;
 padding-right: 10px;
 
-
 }
+
+
 
 .header-switch-buttons {
     background-color: transparent;
@@ -81,6 +82,15 @@ padding-right: 10px;
     text-decoration: none;
     background-color: transparent;
     margin-top: -40px;
+}
+
+
+.nav-link:hover {
+    
+        filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+        contrast(87%);
+    
+
 }
 
 
@@ -145,7 +155,7 @@ margin-top: 5px;
 .heading-container {
     position: relative;
    width: 1400px;
- overflow-x: hidden;
+ 
     }
 
     .title-section-skills {
@@ -182,7 +192,12 @@ margin-top: 5px;
     top: 15px;
     left: 750px;
 }
-    
+
+
+.skills-item {
+    padding-top: 5%;
+    padding-right: 40px;
+}
 
 
 .skills-heading {
@@ -191,6 +206,18 @@ font-style: normal;
 font-weight: bold;
 font-size: 20px;
 color: #FFFFFF;
+white-space: nowrap;
+width: 6em;
+padding-top: 10%;
+
+}
+
+.camera-heading {
+    margin-left: -20%;
+} 
+
+.video-heading {
+    margin-left: -20%;
 }
 
 
@@ -202,7 +229,13 @@ font-size: 18px;
 color: #FFFFFF;
 width: 280px;
 height: 72px;
+padding-top: 20px;
+margin-left: -34.7%;
+line-height: 36px;
 text-align: center;
+
+
+
 }
 
 
@@ -211,9 +244,93 @@ text-align: center;
     width: 1440px;
     height: 242px;
     justify-content: flex-end;
+    flex-wrap: wrap;
+    
+
 }
 
 
-.skills-container {
-    justify-content: flex-start;
+
+
+
+.title-section-portfolio {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+      color: #BDAE82;
+      text-align: center;
+      font-size: 30px;
+      position: relative;
+    background-color: black;
+    margin-top: 300px;
+
+}
+    
+    
+    
+        
+.title-section-portfolio::before {
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: #BDAE82;
+    position: absolute;
+    top: 15px;
+    left: 508.8px;
+    
+}
+        
+.title-section-portfolio::after {
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: #BDAE82;
+    position: absolute;
+    top: 15px;
+    left: 770px;
+}
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+
+}
+
+
+.portfolio-btn{
+    width: 220px;
+height: 55px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 40px;
+text-align: center;
+color: #BDAE82;
+border: 2px  solid#BDAE82;
+padding: 8px 70px 7px 69px;
+
+
+}
+
+.portfolio-btn:hover {
+    background-color: #BDAE82;
+    color: #000000;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    height: 1145px;
+    margin-left: 20px;
+    gap: 25px;
+    margin: 0 auto;
+ 
 }
