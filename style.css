@@ -54,7 +54,26 @@ padding-right: 10px;
 
 .header-switch-buttons {
     background-color: transparent;
+    color: #FFFFFF;
+    
 }
+.buttons:hover {
+    color:#BDAE82;
+}
+.buttons {
+    color: #FFFFFF;
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+background-color: transparent;
+width: 30px;
+height: 50px;
+border: none;
+}
+
+
+
 
 .nav-item {
     background-color:transparent;
@@ -156,6 +175,14 @@ margin-left: 60px;
 margin-top: 5px;
 }
 
+.hero-button:hover {
+    
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    color: #FFFFFF;
+}
 
 .heading-container {
     position: relative;
@@ -388,6 +415,8 @@ left: 750px;
     border: none;
 
 }
+
+
 
 
 
@@ -646,6 +675,11 @@ font-style: normal;
 font-weight: normal;
 font-size: 20px;
 padding-top: 70px;
+}
+
+
+.social-list-footer-container > a:hover {
+    background-color: #CCBA8D;
 }
 
 .footer {
