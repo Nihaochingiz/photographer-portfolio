@@ -279,7 +279,7 @@ text-align: center;
     max-width:1440px;
      flex-wrap: wrap;
      margin-left: 20px;
-     margin:0 auto;
+     
 
 }
 
@@ -689,22 +689,45 @@ padding-top: 70px;
     background-color: black ;
 }
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width: 768px) {
 
- 
-    .price-container, .portfolio-container{
-       
-        margin-left: 500px;
+   
+
+    .header-nav{
+        position: absolute;
+        z-index: 1;
+        display: none;
+        right: -768px;
+        transition: 0.5s;
     }
 
-    .skills-container{
-        margin-left: 995.6px;
-        
+    .title {
+        margin-left:  -91%;
+    }
+    .skills-container {
+        margin-left: 439.7px;
     }
 
-    .btn-container {
-        margin-left: 726px;
+    .container-feed-contacts {
+        margin-left:  -58.6%;
+    }
+    .contacts {
+        background-color: black;
     }
 
- 
+    .data-footer-container {
+        flex-direction: column;
+    }
+
+    .skills-item {
+        margin-top: 30px;
+    }
+    .btn-price-item {
+        margin-right: 10em;
+    }
+
+    .contacts {
+        width: 339px;
+    }
+
 }
