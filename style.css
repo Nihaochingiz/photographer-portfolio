@@ -367,6 +367,11 @@ padding: 8px 70px 7px 69px;
  
 }
 
+.item-portfolio-container {
+    width: 450px;
+    height: 560px;
+}
+
 
 
 
@@ -754,7 +759,7 @@ z-index: 110;
         z-index: 98;
         background-color: black;
         transition: 0.4s;
-        opacity: 0.7;
+        
         
     }
     
@@ -804,6 +809,7 @@ z-index: 110;
     transition: 0.4s;
     display: block;
     
+    
 }
 
 .hamburger.is-active:before {
@@ -819,10 +825,10 @@ opacity: 0;
 }
 
 
+
     
-    
-    
-    .header-nav{
+.nav-item
+    {
         position: absolute;
         z-index: 1;
         display: none;
@@ -830,6 +836,7 @@ opacity: 0;
         transition: 0.5s; 
         
     }
+
 
 
     .title {
@@ -865,6 +872,10 @@ opacity: 0;
         background-image: url(assets/img/small-bg.png);
         width: 768px;
         height: 590px;  
+    }
+
+    .header-switch-buttons {
+        display: flex;
     }
 
 }
