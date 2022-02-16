@@ -9,6 +9,10 @@ html {
   
 }
 
+  
+  .light-theme:hover {
+    color: #000;
+  }
 
 
 .container {
@@ -552,7 +556,7 @@ display: block
 
 .btn-price-item {
     width: 220px;
-    height: 55px;
+    min-height: 55px;
     background: #BDAE82;
     border-radius: 0px;
     font-family: Inter;
