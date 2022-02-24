@@ -216,26 +216,9 @@ margin-top: 5px;
         
         
         
-.title-section-skills::before {
-    content: "";
-    width: 120px;
-    height: 2px;
-    background-color: #BDAE82;
-    position: absolute;
-    top: 15px;
-    left: 532px;
-    
-}
+
         
-.title-section-skills::after {
-    content: "";
-    width: 120px;
-    height: 2px;
-    background-color: #BDAE82;
-    position: absolute;
-    top: 15px;
-    left: 750px;
-}
+
 
 
 .skills-item {
@@ -316,26 +299,8 @@ text-align: center;
     
     
         
-.title-section-portfolio::before {
-    content: "";
-    width: 120px;
-    height: 2px;
-    background-color: #BDAE82;
-    position: absolute;
-    top: 15px;
-    left: 508.8px;
-    
-}
+
         
-.title-section-portfolio::after {
-    content: "";
-    width: 120px;
-    height: 2px;
-    background-color: #BDAE82;
-    position: absolute;
-    top: 15px;
-    left: 770px;
-}
 
 
 .btn-container {
@@ -405,26 +370,9 @@ padding: 8px 70px 7px 69px;
     
     
     
-.title-section-video::before {
-content: "";
-width: 120px;
-height: 2px;
-background-color: #BDAE82;
-position: absolute;
-top: 15px;
-left: 532px;
 
-}
     
-.title-section-video::after {
-content: "";
-width: 120px;
-height: 2px;
-background-color: #BDAE82;
-position: absolute;
-top: 15px;
-left: 750px;
-}
+
 
 
 .btn-video-player {
@@ -479,28 +427,9 @@ left: 750px;
 }
     
     
-    
-.title-section-price::before {
-content: "";
-width: 120px;
-height: 2px;
-background-color: #BDAE82;
-position: absolute;
-top: 15px;
-left: 532px;
-
-}
 
 
-.title-section-price::after {
-content: "";
-width: 120px;
-height: 2px;
-background-color: #BDAE82;
-position: absolute;
-top: 15px;
-left: 750px;
-}
+
 
 
 
@@ -760,12 +689,14 @@ z-index: 110;
 @media screen and (max-width: 768px) {
 
     .header-container {
-        width:  100%;
+        width: 720px;
+        margin-left: 30%;
     }
     .hero-container {
         background-image: url(assets/img/small-bg.png);
-        width: 100%;
+        width: 720px;
         height: 590px;  
+        margin-left: 30%;
     }
 
     .mobile-nav {
@@ -857,7 +788,6 @@ opacity: 0;
     }
 
 
-
     .title {
         margin-left: -31.5%;
     }
@@ -867,12 +797,16 @@ opacity: 0;
     .btn-container {
         margin-left: 169.6%;
     }
+
+    .price-container {
+        margin-left: 109.3%;
+    }
     .portfolio-container {
         margin-left: 98.2%;
     }
 
     .container-feed-contacts {
-        margin-left:  -58.6%;
+        margin-left:  -37.6%;
     }
     .contacts {
         background-color: black;
@@ -880,6 +814,7 @@ opacity: 0;
 
     .data-footer-container {
         flex-direction: column;
+        margin-left: 29.1%;
     }
 
     .skills-item {
@@ -897,6 +832,7 @@ opacity: 0;
 
     .header-switch-buttons {
         display: flex;
+        
     }
 
 }
