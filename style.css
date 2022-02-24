@@ -513,8 +513,8 @@ display: block
 
 .bg-section-contacts {
     background-image: url(assets/img/bg-contacts.png);
-    height: 700px;
-   width: 1400px;
+    max-height: 700px;
+   max-width: 1400px;
    margin-top: 130px;
 }
 
@@ -630,7 +630,7 @@ padding-top: 70px;
 
 .footer {
     color: white;
-    width: 1440px;
+    max-width: 1440px;
     height:150px;
     background-color: black ;
 }
@@ -709,9 +709,9 @@ z-index: 110;
         display: block;
         position: absolute;
         top: 0;
-        right:-370px;
+        right:-120.5px;
         width: 620px;
-        height: 1024px;
+        height: 500px;
         z-index: 98;
         background-color: black;
         transition: 0.4s;
