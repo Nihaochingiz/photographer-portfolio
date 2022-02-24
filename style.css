@@ -404,8 +404,7 @@ padding: 8px 70px 7px 69px;
 
 .section-video {
     position: relative;
-    width: 1440px;
-    height: 945px;
+    width: 100%;
     margin: 0 auto;
 
 }
@@ -688,17 +687,24 @@ z-index: 110;
 
 @media screen and (max-width: 768px) {
 
-    .header-container {
-        width: 720px;
-        margin-left: 30%;
-    }
-    .hero-container {
-        background-image: url(assets/img/small-bg.png);
-        width: 720px;
-        height: 590px;  
-        margin-left: 30%;
+
+
+    .header-switch-buttons {
+        margin-right: 20%;
     }
 
+    .hero-title{
+        margin-left:0;
+    }
+
+    .hero-text {
+        margin-left: 0;
+        height: 200px;
+        width: auto;
+    }
+    .hero-button {
+        margin-left: 0;
+    }
     .mobile-nav {
         display: block;
         position: absolute;
@@ -739,7 +745,7 @@ z-index: 110;
         display: block;
         width: 50px;
         height:25px;
-        margin-left: 588.7px;
+        margin-left: 80%;
         margin-top: -20px;
         cursor: pointer;
         appearance: none;
@@ -787,52 +793,35 @@ opacity: 0;
         
     }
 
+    .skills-container {
+        margin-left: 400px;
+    }
+    .btn-price-item  {
+        margin-right: 200px;
+    }
+    .video-player {
+        width: 100%;
+    }
 
     .title {
-        margin-left: -31.5%;
-    }
-    .skills-container {
-        margin-left: 300%;
-    }
-    .btn-container {
-        margin-left: 169.6%;
+        margin-left: -84.1%;
     }
 
     .price-container {
-        margin-left: 109.3%;
-    }
-    .portfolio-container {
-        margin-left: 98.2%;
+        margin-left: -30%;
     }
 
     .container-feed-contacts {
-        margin-left:  -37.6%;
-    }
-    .contacts {
-        background-color: black;
+        margin-left: -58.4%;
     }
 
-    .data-footer-container {
-        flex-direction: column;
-        margin-left: 29.1%;
+    .bg-section-contacts {
+        width : 100%;
+    }
+    .footer {
+        width: 100%;
+        height: auto;
     }
 
-    .skills-item {
-        margin-top: 30px;
-    }
-    .btn-price-item {
-        margin-right: 10em;
-    }
-
-    .contacts {
-        width: 339px;
-    }
-
-
-
-    .header-switch-buttons {
-        display: flex;
-        
-    }
 
 }
