@@ -1,4 +1,12 @@
 
+.light-theme {
+    background-color: #FFFFFF;
+    color: #000;
+  }
+  
+  .light-theme:hover {
+    color: #000;
+  }
 
 html {
     scroll-behavior: smooth; 
@@ -336,6 +344,7 @@ text-align: center;
     margin-top: 60px;
     margin-bottom: 60px;
     flex-wrap: wrap;
+   
 
 }
 
@@ -577,7 +586,7 @@ display: block
 .bg-section-contacts {
     background-image: url(assets/img/bg-contacts.png);
     height: 700px;
-   width: 1440px;
+   width: 1400px;
    margin-top: 130px;
 }
 
@@ -751,8 +760,14 @@ z-index: 110;
 @media screen and (max-width: 768px) {
 
     .header-container {
-        width:  768px;
+        width:  100%;
     }
+    .hero-container {
+        background-image: url(assets/img/small-bg.png);
+        width: 100%;
+        height: 590px;  
+    }
+
     .mobile-nav {
         display: block;
         position: absolute;
@@ -844,10 +859,16 @@ opacity: 0;
 
 
     .title {
-        margin-left:  -91%;
+        margin-left: -31.5%;
     }
     .skills-container {
-        margin-left: 439.7px;
+        margin-left: 300%;
+    }
+    .btn-container {
+        margin-left: 169.6%;
+    }
+    .portfolio-container {
+        margin-left: 98.2%;
     }
 
     .container-feed-contacts {
@@ -872,11 +893,7 @@ opacity: 0;
         width: 339px;
     }
 
-    .hero-container {
-        background-image: url(assets/img/small-bg.png);
-        width: 768px;
-        height: 590px;  
-    }
+
 
     .header-switch-buttons {
         display: flex;
